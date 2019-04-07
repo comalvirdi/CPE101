@@ -1,0 +1,21 @@
+def creating2DList():
+	str = 'ABCDEFGHIJKLMNOPQRST'
+	letters = []
+	halfLength = (len(str)) /2
+	for j in range(1):
+		column = []
+		column2 = []
+		for i in range (1):
+			for k in range (int(halfLength)):
+				letter = str[k]
+				column.append(letter)
+			break
+		for m in range (1):
+			for l in range(int(halfLength),len(str)):
+				letter = str[l]
+				column2.append(letter)
+		letters.append(column)
+		letters.append(column2)
+	return letters
+
+print (creating2DList())

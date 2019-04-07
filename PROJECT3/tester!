@@ -1,0 +1,25 @@
+def main():
+	practiceFunc()
+def practiceFunc():
+	list2 = []
+	list1 = ["ABCD","ABCD","ABCD"]
+	for i in range (4):
+		substr = ""
+		for l in list1:
+			substr = substr + l[i]
+		list2.append(substr)
+	print (list2)
+	
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+	main()

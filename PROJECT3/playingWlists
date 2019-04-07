@@ -1,0 +1,7 @@
+def creatingDimensionalList():
+    listElements = input('Enter 20 numbers')
+    index = 0
+    while index < len(listElements):
+        letter = listElements[index]
+        
+        
